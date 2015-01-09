@@ -102,7 +102,7 @@ self.addEventListener("activate", function (event) {
   }));
 });
 
-},{"../lib/promise":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js","../lib/serviceworker-cache-polyfill":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/serviceworker-cache-polyfill.js","qheap":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/qheap/index.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{"../lib/promise":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js","../lib/serviceworker-cache-polyfill":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/serviceworker-cache-polyfill.js","qheap":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/qheap/index.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -161,10 +161,10 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/qheap/index.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/qheap/index.js":[function(require,module,exports){
 module.exports = require('./lib/qheap.js');
 
-},{"./lib/qheap.js":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/qheap/lib/qheap.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/qheap/lib/qheap.js":[function(require,module,exports){
+},{"./lib/qheap.js":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/qheap/lib/qheap.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/qheap/lib/qheap.js":[function(require,module,exports){
 /**
  * nodejs heap, classic array implementation
  *
@@ -280,7 +280,7 @@ Heap.prototype._check = function Heap__check( ) {
     return !fail;
 }
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js":[function(require,module,exports){
 (function (process){
 /*!
  * @overview RSVP - a tiny implementation of Promises/A+.
@@ -1894,14 +1894,14 @@ Heap.prototype._check = function Heap__check( ) {
 }).call(this);
 }).call(this,require('_process'))
 
-},{"_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js":[function(require,module,exports){
+},{"_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js":[function(require,module,exports){
 "use strict";
 
 var rsvp = require("rsvp");
 
 module.exports = self.Promise ? self.Promise : rsvp.Promise;
 
-},{"rsvp":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/serviceworker-cache-polyfill.js":[function(require,module,exports){
+},{"rsvp":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/serviceworker-cache-polyfill.js":[function(require,module,exports){
 "use strict";
 // Cannot feature-detect, as we have these implemented but they reject
 
@@ -1988,7 +1988,7 @@ if (!CacheStorage.prototype.match) {
 
 module.exports = self.caches;
 
-},{"./promise":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js"}]},{},["./www/static/js/sw/index.js"])
+},{"./promise":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js"}]},{},["./www/static/js/sw/index.js"])
 
 
 //# sourceMappingURL=sw.js.map

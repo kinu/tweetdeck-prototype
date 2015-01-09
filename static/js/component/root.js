@@ -17,6 +17,13 @@ function makeDefaultColumn(account) {
   return new Column('home', account);
 }
 
+window.logout = function () {
+  indexedDB.deleteDatabase('tweetdeck');
+  indexedDB.deleteDatabase('key-value-store');
+  indexedDB.deleteDatabase('ordered-store');
+  window.location.reload();
+}
+
 module.exports = React.createClass({
   displayName: 'RootView',
 
@@ -31,7 +38,24 @@ module.exports = React.createClass({
 
   attemptLogin() {
     tweetdeckDb.getUser()
-      .then(user => user && tweetdeck.fetchAccount(user))
+      .then(user => {
+        if (!user) {
+          return;
+        }
+        // Try to go to idb
+        return tweetdeckDb.getAccount(user)
+          .then(account => {
+            if (account) {
+              return account;
+            }
+            // Fall back to network
+            return tweetdeck.fetchAccount(user);
+          })
+      })
+      .then(account => {
+        tweetdeckDb.setAccount(account);
+        return account;
+      })
       .then(account => {
         // Note: account might be not be defined – that's ok
         this.setState({

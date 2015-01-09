@@ -15,11 +15,11 @@ utils.domReady.then(React.render.bind(React, React.createElement(RootView, null)
   return console.error(why.stack);
 });
 
-},{"./component/root":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/root.js","./lib/utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js","6to5/polyfill":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/polyfill.js","fetch":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/fetch/fetch.js","react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/lib/6to5/polyfill.js":[function(require,module,exports){
+},{"./component/root":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/root.js","./lib/utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js","6to5/polyfill":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/polyfill.js","fetch":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/fetch/fetch.js","react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/lib/6to5/polyfill.js":[function(require,module,exports){
 require("core-js/shim");
 require("regenerator/runtime");
 
-},{"core-js/shim":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/node_modules/core-js/shim.js","regenerator/runtime":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/node_modules/regenerator/runtime.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/node_modules/core-js/shim.js":[function(require,module,exports){
+},{"core-js/shim":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/core-js/shim.js","regenerator/runtime":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/regenerator/runtime.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/core-js/shim.js":[function(require,module,exports){
 /**
  * Core.js 0.4.1
  * https://github.com/zloirock/core-js
@@ -1602,7 +1602,7 @@ $define(GLOBAL + BIND, {
   $define(STATIC, ARRAY, arrayStatics);
 }({});
 }(Function('return this'), true);
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/node_modules/regenerator/runtime.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/regenerator/runtime.js":[function(require,module,exports){
 /**
  * Copyright (c) 2014, Facebook, Inc.
  * All rights reserved.
@@ -2091,10 +2091,10 @@ $define(GLOBAL + BIND, {
   };
 })();
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/polyfill.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/polyfill.js":[function(require,module,exports){
 module.exports = require("./lib/6to5/polyfill");
 
-},{"./lib/6to5/polyfill":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/6to5/lib/6to5/polyfill.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{"./lib/6to5/polyfill":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/lib/6to5/polyfill.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -2153,7 +2153,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/fetch/fetch.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/fetch/fetch.js":[function(require,module,exports){
 (function() {
   'use strict';
 
@@ -2364,7 +2364,7 @@ process.umask = function() { return 0; };
   }
 })();
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/lodash/dist/lodash.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/lodash/dist/lodash.js":[function(require,module,exports){
 (function (global){
 /**
  * @license
@@ -9154,10 +9154,10 @@ process.umask = function() { return 0; };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/addons.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/addons.js":[function(require,module,exports){
 module.exports = require('./lib/ReactWithAddons');
 
-},{"./lib/ReactWithAddons":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactWithAddons.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+},{"./lib/ReactWithAddons":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactWithAddons.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9184,7 +9184,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/focusNode.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/focusNode.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -9406,7 +9406,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSCore.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSCore.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9519,7 +9519,7 @@ module.exports = CSSCore;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9638,7 +9638,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9774,7 +9774,7 @@ module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
 
-},{"./CSSProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/memoizeStringOnly.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9875,7 +9875,7 @@ module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10257,7 +10257,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isTextInputElement.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10282,7 +10282,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10541,7 +10541,7 @@ var CompositionEventPlugin = {
 
 module.exports = CompositionEventPlugin;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10717,7 +10717,7 @@ module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
 
-},{"./Danger":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11017,7 +11017,7 @@ module.exports = DOMProperty;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11215,7 +11215,7 @@ module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
 
-},{"./DOMProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/memoizeStringOnly.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11402,7 +11402,7 @@ module.exports = Danger;
 
 }).call(this,require('_process'))
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getMarkupWrap.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11442,7 +11442,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11582,7 +11582,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11654,7 +11654,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014 Facebook, Inc.
@@ -11745,7 +11745,7 @@ module.exports = EventListener;
 
 }).call(this,require('_process'))
 
-},{"./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12022,7 +12022,7 @@ module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
 
-},{"./EventPluginRegistry":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12303,7 +12303,7 @@ module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12525,7 +12525,7 @@ module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12668,7 +12668,7 @@ module.exports = EventPropagators;
 
 }).call(this,require('_process'))
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12713,7 +12713,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12905,7 +12905,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LinkedStateMixin.js":[function(require,module,exports){
+},{"./DOMProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LinkedStateMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12946,7 +12946,7 @@ var LinkedStateMixin = {
 
 module.exports = LinkedStateMixin;
 
-},{"./ReactLink":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLink.js","./ReactStateSetters":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactStateSetters.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./ReactLink":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLink.js","./ReactStateSetters":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactStateSetters.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13103,7 +13103,7 @@ module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
 
-},{"./ReactPropTypes":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypes.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -13154,7 +13154,7 @@ module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
 
-},{"./ReactBrowserEventEmitter":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13212,7 +13212,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -13259,7 +13259,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13376,7 +13376,7 @@ module.exports = PooledClass;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13565,7 +13565,7 @@ module.exports = React;
 
 }).call(this,require('_process'))
 
-},{"./DOMPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/onlyChild.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactChildren":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/deprecated.js","./onlyChild":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/onlyChild.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13609,7 +13609,7 @@ module.exports = ReactBrowserComponentMixin;
 
 }).call(this,require('_process'))
 
-},{"./ReactEmptyComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./ReactEmptyComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13964,7 +13964,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroup.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroup.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14031,7 +14031,7 @@ var ReactCSSTransitionGroup = React.createClass({
 
 module.exports = ReactCSSTransitionGroup;
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./React":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactCSSTransitionGroupChild":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroupChild.js","./ReactTransitionGroup":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTransitionGroup.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroupChild.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./React":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactCSSTransitionGroupChild":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroupChild.js","./ReactTransitionGroup":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTransitionGroup.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroupChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14167,7 +14167,7 @@ module.exports = ReactCSSTransitionGroupChild;
 
 }).call(this,require('_process'))
 
-},{"./CSSCore":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSCore.js","./React":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactTransitionEvents":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTransitionEvents.js","./onlyChild":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/onlyChild.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+},{"./CSSCore":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSCore.js","./React":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactTransitionEvents":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTransitionEvents.js","./onlyChild":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/onlyChild.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14318,7 +14318,7 @@ module.exports = ReactChildren;
 
 }).call(this,require('_process'))
 
-},{"./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+},{"./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/traverseAllChildren.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14762,7 +14762,7 @@ module.exports = ReactComponent;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyMirror":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyMirror.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyMirror":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyMirror.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14885,7 +14885,7 @@ module.exports = ReactComponentBrowserEnvironment;
 
 }).call(this,require('_process'))
 
-},{"./ReactDOMIDOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/setInnerHTML.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./setInnerHTML":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/setInnerHTML.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14934,7 +14934,7 @@ var ReactComponentWithPureRenderMixin = {
 
 module.exports = ReactComponentWithPureRenderMixin;
 
-},{"./shallowEqual":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/shallowEqual.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./shallowEqual":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/shallowEqual.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16375,7 +16375,7 @@ module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyMirror":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./mapObject":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactContext":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyMirror":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyMirror.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./mapObject":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16437,7 +16437,7 @@ var ReactContext = {
 
 module.exports = ReactContext;
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16471,7 +16471,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16655,7 +16655,7 @@ module.exports = ReactDOM;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/mapObject.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/mapObject.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16720,7 +16720,7 @@ var ReactDOMButton = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./keyMirror":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17208,7 +17208,7 @@ module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
 
-},{"./CSSPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./isEventSupported":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17258,7 +17258,7 @@ var ReactDOMForm = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17445,7 +17445,7 @@ module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
 
-},{"./CSSPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/setInnerHTML.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./setInnerHTML":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/setInnerHTML.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17493,7 +17493,7 @@ var ReactDOMImg = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17672,7 +17672,7 @@ module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
 
-},{"./AutoFocusMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17726,7 +17726,7 @@ module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
 
-},{"./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17910,7 +17910,7 @@ var ReactDOMSelect = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18119,7 +18119,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18261,7 +18261,7 @@ module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
 
-},{"./AutoFocusMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOM.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18334,7 +18334,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./Transaction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Transaction.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18464,7 +18464,7 @@ module.exports = {
 
 }).call(this,require('_process'))
 
-},{"./BeforeInputEventPlugin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/createFullPageComponent.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18724,7 +18724,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/performanceNow.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./performanceNow":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/performanceNow.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18930,7 +18930,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -19177,7 +19177,7 @@ module.exports = ReactElement;
 
 }).call(this,require('_process'))
 
-},{"./ReactContext":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./ReactContext":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -19460,7 +19460,7 @@ module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
 
-},{"./ReactCurrentOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -19538,7 +19538,7 @@ module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19570,7 +19570,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19620,7 +19620,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19804,7 +19804,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+},{"./EventListener":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19844,7 +19844,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19980,7 +19980,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/containsNode.js","./focusNode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getActiveElement.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/containsNode.js","./focusNode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/focusNode.js","./getActiveElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getActiveElement.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20316,7 +20316,7 @@ module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
 
-},{"./ReactRootIndex":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
+},{"./ReactRootIndex":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactRootIndex.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -20564,7 +20564,7 @@ module.exports = ReactLegacyElementFactory;
 
 }).call(this,require('_process'))
 
-},{"./ReactCurrentOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLink.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./monitorCodeUse":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLink.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20637,7 +20637,7 @@ ReactLink.PropTypes = {
 
 module.exports = ReactLink;
 
-},{"./React":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./React":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20685,7 +20685,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/adler32.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/adler32.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21384,7 +21384,7 @@ module.exports = ReactMount;
 
 }).call(this,require('_process'))
 
-},{"./DOMProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/containsNode.js","./deprecated":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./containsNode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/containsNode.js","./deprecated":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -21812,7 +21812,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -21845,7 +21845,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -21919,7 +21919,7 @@ module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22076,7 +22076,7 @@ module.exports = ReactOwner;
 
 }).call(this,require('_process'))
 
-},{"./emptyObject":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyObject.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+},{"./emptyObject":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyObject.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22161,7 +22161,7 @@ module.exports = ReactPerf;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22329,7 +22329,7 @@ module.exports = ReactPropTransferer;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./joinClasses":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/joinClasses.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./joinClasses":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/joinClasses.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22358,7 +22358,7 @@ module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22382,7 +22382,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyMirror.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22736,7 +22736,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/deprecated.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22792,7 +22792,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22968,7 +22968,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Transaction.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./CallbackQueue":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Transaction.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22999,7 +22999,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -23080,7 +23080,7 @@ module.exports = {
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -23193,7 +23193,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactStateSetters.js":[function(require,module,exports){
+},{"./CallbackQueue":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Transaction.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactStateSetters.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23299,7 +23299,7 @@ ReactStateSetters.Mixin = {
 
 module.exports = ReactStateSetters;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTestUtils.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTestUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23711,7 +23711,7 @@ for (eventType in topLevelTypes) {
 
 module.exports = ReactTestUtils;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./React":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactBrowserEventEmitter":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactTextComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./React":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactBrowserEventEmitter":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactMount":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactMount.js","./ReactTextComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23817,7 +23817,7 @@ ReactTextComponentFactory.type = ReactTextComponent;
 
 module.exports = ReactTextComponentFactory;
 
-},{"./DOMPropertyOperations":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTransitionChildMapping.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./ReactComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponent.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTransitionChildMapping.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23918,7 +23918,7 @@ var ReactTransitionChildMapping = {
 
 module.exports = ReactTransitionChildMapping;
 
-},{"./ReactChildren":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactChildren.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTransitionEvents.js":[function(require,module,exports){
+},{"./ReactChildren":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactChildren.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTransitionEvents.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24029,7 +24029,7 @@ var ReactTransitionEvents = {
 
 module.exports = ReactTransitionEvents;
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTransitionGroup.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTransitionGroup.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24218,7 +24218,7 @@ var ReactTransitionGroup = React.createClass({
 
 module.exports = ReactTransitionGroup;
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./React":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactTransitionChildMapping":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTransitionChildMapping.js","./cloneWithProps":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/cloneWithProps.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./React":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactTransitionChildMapping":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTransitionChildMapping.js","./cloneWithProps":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/cloneWithProps.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -24509,7 +24509,7 @@ module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
 
-},{"./CallbackQueue":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Transaction.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactWithAddons.js":[function(require,module,exports){
+},{"./CallbackQueue":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPerf.js","./Transaction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Transaction.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactWithAddons.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -24564,7 +24564,7 @@ module.exports = React;
 
 }).call(this,require('_process'))
 
-},{"./LinkedStateMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/LinkedStateMixin.js","./React":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactCSSTransitionGroup":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroup.js","./ReactComponentWithPureRenderMixin":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactComponentWithPureRenderMixin.js","./ReactDefaultPerf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerf.js","./ReactTestUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTestUtils.js","./ReactTransitionGroup":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTransitionGroup.js","./ReactUpdates":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./cloneWithProps":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/cloneWithProps.js","./cx":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/cx.js","./update":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/update.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./LinkedStateMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/LinkedStateMixin.js","./React":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js","./ReactCSSTransitionGroup":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroup.js","./ReactComponentWithPureRenderMixin":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactComponentWithPureRenderMixin.js","./ReactDefaultPerf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactDefaultPerf.js","./ReactTestUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTestUtils.js","./ReactTransitionGroup":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTransitionGroup.js","./ReactUpdates":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactUpdates.js","./cloneWithProps":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/cloneWithProps.js","./cx":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/cx.js","./update":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/update.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24656,7 +24656,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/DOMProperty.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24851,7 +24851,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/shallowEqual.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPropagators":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isTextInputElement.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./shallowEqual":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/shallowEqual.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24882,7 +24882,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -25311,7 +25311,7 @@ module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
 
-},{"./EventConstants":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25357,7 +25357,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 
-},{"./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25403,7 +25403,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticCompositionEvent;
 
 
-},{"./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25442,7 +25442,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25600,7 +25600,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./PooledClass":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/PooledClass.js","./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25639,7 +25639,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -25686,7 +25686,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticInputEvent;
 
 
-},{"./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25773,7 +25773,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25856,7 +25856,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25904,7 +25904,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25966,7 +25966,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26027,7 +26027,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/SyntheticMouseEvent.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -26269,7 +26269,7 @@ module.exports = Transaction;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26301,7 +26301,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{"./getUnboundedScrollPosition":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+},{"./getUnboundedScrollPosition":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -26368,7 +26368,7 @@ module.exports = accumulateInto;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26402,7 +26402,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/camelize.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26434,7 +26434,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -26476,7 +26476,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/camelize.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/cloneWithProps.js":[function(require,module,exports){
+},{"./camelize":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/camelize.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/cloneWithProps.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -26536,7 +26536,7 @@ module.exports = cloneWithProps;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactPropTransferer":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactPropTransferer.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactPropTransferer":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactPropTransferer.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26580,7 +26580,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isTextNode.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
+},{"./isTextNode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isTextNode.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26666,7 +26666,7 @@ function createArrayFrom(obj) {
 
 module.exports = createArrayFrom;
 
-},{"./toArray":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/toArray.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/toArray.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -26728,7 +26728,7 @@ module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
 
-},{"./ReactCompositeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactCompositeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -26819,7 +26819,7 @@ module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/cx.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getMarkupWrap.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/cx.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26858,7 +26858,7 @@ function cx(classNames) {
 
 module.exports = cx;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26916,7 +26916,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/CSSProperty.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/deprecated.js":[function(require,module,exports){
+},{"./CSSProperty":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/CSSProperty.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/deprecated.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -26968,7 +26968,7 @@ module.exports = deprecated;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27002,7 +27002,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27027,7 +27027,7 @@ module.exports = emptyObject;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
+},{"_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27068,7 +27068,7 @@ function escapeTextForBrowser(text) {
 
 module.exports = escapeTextForBrowser;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27138,7 +27138,7 @@ module.exports = flattenChildren;
 
 }).call(this,require('_process'))
 
-},{"./ReactTextComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+},{"./ReactTextComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/traverseAllChildren.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -27167,7 +27167,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27198,7 +27198,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27227,7 +27227,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27279,7 +27279,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27384,7 +27384,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventCharCode.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -27431,7 +27431,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27462,7 +27462,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27580,7 +27580,7 @@ module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27655,7 +27655,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27690,7 +27690,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27727,7 +27727,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27767,7 +27767,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27800,7 +27800,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27841,7 +27841,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/hyphenate.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/hyphenate.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27956,7 +27956,7 @@ module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactNativeComponent.js","./warning":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -28014,7 +28014,7 @@ module.exports = invariant;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28079,7 +28079,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28107,7 +28107,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28151,7 +28151,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28176,7 +28176,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/isNode.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
+},{"./isNode":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/isNode.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28217,7 +28217,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -28273,7 +28273,7 @@ module.exports = keyMirror;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28309,7 +28309,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28362,7 +28362,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28396,7 +28396,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -28431,7 +28431,7 @@ module.exports = monitorCodeUse;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -28472,7 +28472,7 @@ module.exports = onlyChild;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28500,7 +28500,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28528,7 +28528,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/performance.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./performance":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/performance.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28606,7 +28606,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ExecutionEnvironment.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28650,7 +28650,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28688,7 +28688,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 module.exports = shouldUpdateReactComponent;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/toArray.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -28761,7 +28761,7 @@ module.exports = toArray;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -28945,7 +28945,7 @@ module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/update.js":[function(require,module,exports){
+},{"./ReactElement":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/update.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -29114,7 +29114,7 @@ module.exports = update;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./invariant":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyOf":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/keyOf.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/warning.js":[function(require,module,exports){
+},{"./Object.assign":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/Object.assign.js","./invariant":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/invariant.js","./keyOf":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/keyOf.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -29160,10 +29160,10 @@ module.exports = warning;
 
 }).call(this,require('_process'))
 
-},{"./emptyFunction":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js":[function(require,module,exports){
+},{"./emptyFunction":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/emptyFunction.js","_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/React.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js":[function(require,module,exports){
+},{"./lib/React":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/React.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js":[function(require,module,exports){
 (function (process){
 /*!
  * @overview RSVP - a tiny implementation of Promises/A+.
@@ -30777,7 +30777,7 @@ module.exports = require('./lib/React');
 }).call(this);
 }).call(this,require('_process'))
 
-},{"_process":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/column-item.js":[function(require,module,exports){
+},{"_process":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/browserify/node_modules/process/browser.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/column-item.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -30787,12 +30787,13 @@ var utils = require("../lib/utils");
 module.exports = React.createClass({
   displayName: "Item",
 
-  onTweetClick: function onTweetClick(_ref) {
-    var target = _ref.target;
+  onTweetClick: function onTweetClick(event) {
     // ignore taps on interactive elements
-    if (utils.closest(target, "button, a, input")) {
+    if (utils.closest(event.target, "button, a, input")) {
       return;
     }
+
+    event.preventDefault();
 
     this.props.onActivateTweet(this.getDOMNode(), this.props.item);
   },
@@ -30901,7 +30902,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"../lib/utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js","react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/column.js":[function(require,module,exports){
+},{"../lib/utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js","react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/column.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react/addons");
@@ -30933,7 +30934,7 @@ module.exports = React.createClass({
   componentDidMount: function componentDidMount() {
     this.props.column.addTweetChangeListener(this.handleTweetChanged);
     document.querySelector(".logo").addEventListener("click", this.handleHeaderClick);
-    this.loadDown();
+    this.loadDown().then(this.loadUp);
   },
 
   componentWillUnmount: function () {
@@ -30979,7 +30980,7 @@ module.exports = React.createClass({
       loadingDown: true
     });
     // Load tweets below what we have now
-    this.props.column.load({
+    return this.props.column.load({
       cursor: this.state.cursors.down || {}
     }).then(function (result) {
       var newCursors = _this.state.cursors;
@@ -31003,7 +31004,7 @@ module.exports = React.createClass({
       loadingUp: true
     });
     // Load tweets above what we have now
-    this.props.column.load({
+    return this.props.column.load({
       cursor: this.state.cursors.up || {}
     }).then(function (result) {
       var newCursors = _this2.state.cursors;
@@ -31044,7 +31045,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"../lib/domtoreact":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/domtoreact.js","../lib/utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js","./column-item":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/column-item.js","./loader":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/loader.js","react/addons":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/addons.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/field-group.js":[function(require,module,exports){
+},{"../lib/domtoreact":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/domtoreact.js","../lib/utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js","./column-item":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/column-item.js","./loader":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/loader.js","react/addons":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/addons.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/field-group.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -31060,7 +31061,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/loader.js":[function(require,module,exports){
+},{"react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/loader.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react/addons");
@@ -31098,7 +31099,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"react/addons":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/addons.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login.js":[function(require,module,exports){
+},{"react/addons":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/addons.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login.js":[function(require,module,exports){
 "use strict";
 
 var tweetdeck = require("../lib/tweetdeck");
@@ -31293,7 +31294,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"../lib/promise":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js","../lib/tweetdeck":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/index.js","../lib/utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js","./login/mobileappauthchallenge":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login/mobileappauthchallenge.js","./login/smsauthchallenge":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login/smsauthchallenge.js","./login/userpass":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login/userpass.js","./modal-dialog":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/modal-dialog.js","react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login/mobileappauthchallenge.js":[function(require,module,exports){
+},{"../lib/promise":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js","../lib/tweetdeck":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/index.js","../lib/utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js","./login/mobileappauthchallenge":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login/mobileappauthchallenge.js","./login/smsauthchallenge":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login/smsauthchallenge.js","./login/userpass":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login/userpass.js","./modal-dialog":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/modal-dialog.js","react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login/mobileappauthchallenge.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -31309,7 +31310,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login/smsauthchallenge.js":[function(require,module,exports){
+},{"react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login/smsauthchallenge.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -31359,7 +31360,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"../field-group":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/field-group.js","react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login/userpass.js":[function(require,module,exports){
+},{"../field-group":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/field-group.js","react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login/userpass.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -31420,7 +31421,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"../field-group":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/field-group.js","react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/modal-dialog.js":[function(require,module,exports){
+},{"../field-group":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/field-group.js","react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/modal-dialog.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react/addons");
@@ -31457,7 +31458,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"react/addons":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/addons.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/root.js":[function(require,module,exports){
+},{"react/addons":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/addons.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/root.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -31477,6 +31478,13 @@ function makeDefaultColumn(account) {
   return new Column("home", account);
 }
 
+window.logout = function () {
+  indexedDB.deleteDatabase("tweetdeck");
+  indexedDB.deleteDatabase("key-value-store");
+  indexedDB.deleteDatabase("ordered-store");
+  window.location.reload();
+};
+
 module.exports = React.createClass({
   displayName: "RootView",
 
@@ -31492,7 +31500,20 @@ module.exports = React.createClass({
   attemptLogin: function attemptLogin() {
     var _this = this;
     tweetdeckDb.getUser().then(function (user) {
-      return user && tweetdeck.fetchAccount(user);
+      if (!user) {
+        return;
+      }
+      // Try to go to idb
+      return tweetdeckDb.getAccount(user).then(function (account) {
+        if (account) {
+          return account;
+        }
+        // Fall back to network
+        return tweetdeck.fetchAccount(user);
+      });
+    }).then(function (account) {
+      tweetdeckDb.setAccount(account);
+      return account;
     }).then(function (account) {
       // Note: account might be not be defined – that's ok
       _this.setState({
@@ -31563,19 +31584,38 @@ module.exports = React.createClass({
   }
 });
 
-},{"../lib/tweetdeck":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/index.js","../lib/tweetdeck/column":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/column.js","../lib/tweetdeckdb":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeckdb.js","./column":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/column.js","./loader":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/loader.js","./login":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/login.js","./thread":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/thread.js","react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js","react/lib/ReactCSSTransitionGroup":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroup.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/thread.js":[function(require,module,exports){
+},{"../lib/tweetdeck":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/index.js","../lib/tweetdeck/column":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/column.js","../lib/tweetdeckdb":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeckdb.js","./column":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/column.js","./loader":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/loader.js","./login":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/login.js","./thread":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/thread.js","react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js","react/lib/ReactCSSTransitionGroup":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/lib/ReactCSSTransitionGroup.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/thread.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
 var ColumnItem = require("./column-item");
+var cx = React.addons.classSet;
 
 module.exports = React.createClass({
   displayName: "Thread",
 
+  getInitialState: function getInitialState() {
+    return {
+      blurBg: false
+    };
+  },
+
+  onScroll: function onScroll(event) {
+    this.setState({
+      blurBg: event.target.scrollTop > 100
+    });
+  },
+
   render: function render() {
+    var classes = cx({
+      thread: true,
+      "thread--hero": this.props.item.heroImg,
+      "blur-bg": this.state.blurBg
+    });
+
     return React.createElement(
       "div",
-      { className: "thread " + (this.props.item.heroImg ? "thread--hero" : "") },
+      { className: classes, onScroll: this.onScroll },
       React.createElement(
         "button",
         { className: "unbutton thread__close-button", onClick: this.props.onClose },
@@ -31701,7 +31741,7 @@ module.exports = React.createClass({
   }
 });
 
-},{"./column-item":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/component/column-item.js","react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/client.js":[function(require,module,exports){
+},{"./column-item":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/component/column-item.js","react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/client.js":[function(require,module,exports){
 "use strict";
 
 var utils = require("./utils");
@@ -31735,6 +31775,7 @@ function extendAndClean(o) {
 
 var TWITTER = {
   BASE: "https://api.twitter.com",
+  PROXY: "//" + window.location.hostname + ":8001",
   ENDPOINTS: {
     home: {
       url: "/1.1/statuses/home_timeline.json",
@@ -31765,6 +31806,15 @@ var TWITTER = {
 };
 
 module.exports = {
+  proxiedRequest: function proxiedRequest(account, url, opts) {
+    opts = utils.defaults(opts, {
+      headers: {}
+    });
+    opts.headers["x-td-oauth-key"] = account.oauth.token;
+    opts.headers["x-td-oauth-secret"] = account.oauth.secret;
+    return fetch(TWITTER.PROXY + "/oauth/proxy/twitter/" + encodeURIComponent(url), opts);
+  },
+
   makeRequest: function makeRequest(endpointKey) {
     var request = arguments[1] === undefined ? {} : arguments[1];
     var endpoint = TWITTER.ENDPOINTS[endpointKey];
@@ -31775,7 +31825,7 @@ module.exports = {
     var params = extendAndClean(endpoint.params || {}, request.cursor.params || {}, TWITTER.DEFAULT_PARAMS);
     var url = "" + TWITTER.BASE + "" + utils.templateString(endpoint.url, params) + ("?" + utils.objToQueryString(query));
 
-    return request.account.proxiedRequest(url, endpoint.opts || {}).then(function (r) {
+    return this.proxiedRequest(request.account, url, endpoint.opts || {}).then(function (r) {
       return r.json();
     });
   },
@@ -31798,7 +31848,7 @@ module.exports = {
   }
 };
 
-},{"./request-result":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/request-result.js","./utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js","lodash":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/domtoreact.js":[function(require,module,exports){
+},{"./request-result":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/request-result.js","./utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js","lodash":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/domtoreact.js":[function(require,module,exports){
 "use strict";
 var DOM = require("react").DOM;
 
@@ -31827,7 +31877,7 @@ module.exports = function domToReact(el) {
   return DOM[funcName].apply(DOM, args);
 };
 
-},{"react":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/react.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/idb-key-value-store.js":[function(require,module,exports){
+},{"react":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/react.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/idb-key-value-store.js":[function(require,module,exports){
 "use strict";
 
 var IndexedDouchebag = require("./indexeddouchebag");
@@ -31858,7 +31908,7 @@ IDBKeyValueStore.prototype.put = function (key, value) {
 
 module.exports = IDBKeyValueStore;
 
-},{"./indexeddouchebag":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/idb-ordered-store.js":[function(require,module,exports){
+},{"./indexeddouchebag":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/idb-ordered-store.js":[function(require,module,exports){
 "use strict";
 
 var _ = require("lodash");
@@ -31927,7 +31977,7 @@ IDBOrderedStore.prototype.putRequestResult = function (requestResult) {
 
 module.exports = IDBOrderedStore;
 
-},{"./indexeddouchebag":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js","./request-result":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/request-result.js","./store-utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/store-utils.js","./tweet-interval":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","./tweetdeck/sort-utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js","lodash":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js":[function(require,module,exports){
+},{"./indexeddouchebag":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js","./request-result":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/request-result.js","./store-utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/store-utils.js","./tweet-interval":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","./tweetdeck/sort-utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js","lodash":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js":[function(require,module,exports){
 "use strict";
 
 var Promise = require("./promise");
@@ -32018,7 +32068,7 @@ IndexedDouchebagProto["delete"] = function (store, key) {
 
 module.exports = IndexedDouchebag;
 
-},{"./promise":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/interval.js":[function(require,module,exports){
+},{"./promise":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/interval.js":[function(require,module,exports){
 "use strict";
 
 module.exports = function makeIntervalConstructor(compareValues) {
@@ -32311,7 +32361,7 @@ module.exports = function makeIntervalConstructor(compareValues) {
 };
 // [b,a]
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/memory-key-value-store.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/memory-key-value-store.js":[function(require,module,exports){
 "use strict";
 
 var MemoryKeyValueStore = function MemoryKeyValueStore() {
@@ -32342,7 +32392,7 @@ MemoryKeyValueStore.prototype.put = function (key, value) {
 
 module.exports = MemoryKeyValueStore;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/memory-ordered-store.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/memory-ordered-store.js":[function(require,module,exports){
 "use strict";
 
 var _ = require("lodash");
@@ -32398,14 +32448,14 @@ MemoryOrderedStore.prototype.putRequestResult = function (requestResult) {
 
 module.exports = MemoryOrderedStore;
 
-},{"./request-result":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/request-result.js","./store-utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/store-utils.js","./tweet-interval":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","./tweetdeck/sort-utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js","lodash":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js":[function(require,module,exports){
+},{"./request-result":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/request-result.js","./store-utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/store-utils.js","./tweet-interval":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","./tweetdeck/sort-utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js","lodash":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js":[function(require,module,exports){
 "use strict";
 
 var rsvp = require("rsvp");
 
 module.exports = self.Promise ? self.Promise : rsvp.Promise;
 
-},{"rsvp":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/request-result.js":[function(require,module,exports){
+},{"rsvp":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/rsvp/dist/rsvp.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/request-result.js":[function(require,module,exports){
 "use strict";
 
 var Request = function Request(account, cursor, data) {
@@ -32422,7 +32472,7 @@ var RequestResult = function RequestResult(request, result, data) {
 
 module.exports = { Request: Request, RequestResult: RequestResult };
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/store-utils.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/store-utils.js":[function(require,module,exports){
 "use strict";
 
 var TweetInterval = require("./tweet-interval");
@@ -32441,7 +32491,7 @@ module.exports = {
   }
 };
 
-},{"./tweet-interval":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","lodash":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/timeline-store.js":[function(require,module,exports){
+},{"./tweet-interval":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","lodash":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/timeline-store.js":[function(require,module,exports){
 "use strict";
 
 var _ = require("lodash");
@@ -32607,7 +32657,7 @@ TimelineStore.prototype.makeCursorFromResult = function (requestResult) {
 
 module.exports = TimelineStore;
 
-},{"./client":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/client.js","./memory-ordered-store":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/memory-ordered-store.js","./request-result":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/request-result.js","./tweet-interval":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","./tweet-store":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-store.js","./tweetdeck/column-utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/column-utils.js","lodash":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-interval.js":[function(require,module,exports){
+},{"./client":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/client.js","./memory-ordered-store":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/memory-ordered-store.js","./request-result":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/request-result.js","./tweet-interval":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-interval.js","./tweet-store":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-store.js","./tweetdeck/column-utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/column-utils.js","lodash":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/lodash/dist/lodash.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-interval.js":[function(require,module,exports){
 "use strict";
 
 var makeIntervalConstructor = require("./interval");
@@ -32615,7 +32665,7 @@ var sortUtils = require("./tweetdeck/sort-utils");
 
 module.exports = makeIntervalConstructor(sortUtils.byCreatedAtAsc);
 
-},{"./interval":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/interval.js","./tweetdeck/sort-utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-store.js":[function(require,module,exports){
+},{"./interval":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/interval.js","./tweetdeck/sort-utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-store.js":[function(require,module,exports){
 "use strict";
 
 var MemoryKeyValueStore = require("./memory-key-value-store");
@@ -32646,38 +32696,28 @@ TweetStore.prototype.putRequestResult = function (requestResult) {
 
 module.exports = TweetStore;
 
-},{"./memory-key-value-store":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/memory-key-value-store.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/account.js":[function(require,module,exports){
+},{"./memory-key-value-store":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/memory-key-value-store.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/account.js":[function(require,module,exports){
 "use strict";
 
 var utils = require("../utils");
 
-function Account(rawData, proxy) {
-  this.name = rawData.name;
-  this.screenName = rawData.screen_name;
-  this.id = rawData.uid;
-  this.avatar = rawData.avatar;
-  this["default"] = rawData["default"];
-  this.oauth = {
-    token: rawData.key,
-    secret: rawData.secret
+function makeAccount(rawData) {
+  return {
+    name: rawData.name,
+    screenName: rawData.screen_name,
+    id: rawData.uid,
+    avatar: rawData.avatar,
+    "default": rawData["default"],
+    oauth: {
+      token: rawData.key,
+      secret: rawData.secret
+    }
   };
-  this._proxy = proxy;
 }
 
-var AccountProto = Account.prototype;
+module.exports = makeAccount;
 
-AccountProto.proxiedRequest = function (url, opts) {
-  opts = utils.defaults(opts, {
-    headers: {}
-  });
-  opts.headers["x-td-oauth-key"] = this.oauth.token;
-  opts.headers["x-td-oauth-secret"] = this.oauth.secret;
-  return fetch(this._proxy + "/oauth/proxy/twitter/" + encodeURIComponent(url), opts);
-};
-
-module.exports = Account;
-
-},{"../utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/column-utils.js":[function(require,module,exports){
+},{"../utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/column-utils.js":[function(require,module,exports){
 "use strict";
 
 var TweetInterval = require("../tweet-interval");
@@ -32742,7 +32782,7 @@ module.exports = {
   }
 };
 
-},{"../tweet-interval":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-interval.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/column.js":[function(require,module,exports){
+},{"../tweet-interval":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-interval.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/column.js":[function(require,module,exports){
 "use strict";
 
 var columnUtils = require("./column-utils");
@@ -32826,7 +32866,7 @@ Column.prototype.retweetTweet = function (tweet) {
 
 module.exports = Column;
 
-},{"../idb-key-value-store":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/idb-key-value-store.js","../idb-ordered-store":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/idb-ordered-store.js","../request-result":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/request-result.js","../timeline-store":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/timeline-store.js","../tweet-store":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweet-store.js","./column-utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/column-utils.js","./tweetcolumnitem":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/tweetcolumnitem.js","react/addons":"/Users/phartig/Projects/javascript/tweetdeck-prototype/node_modules/react/addons.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/columnitem.js":[function(require,module,exports){
+},{"../idb-key-value-store":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/idb-key-value-store.js","../idb-ordered-store":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/idb-ordered-store.js","../request-result":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/request-result.js","../timeline-store":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/timeline-store.js","../tweet-store":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweet-store.js","./column-utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/column-utils.js","./tweetcolumnitem":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/tweetcolumnitem.js","react/addons":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/react/addons.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/columnitem.js":[function(require,module,exports){
 "use strict";
 
 var ColumnItem = function ColumnItem() {
@@ -32836,13 +32876,13 @@ var ColumnItem = function ColumnItem() {
 
 module.exports = ColumnItem;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/index.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/index.js":[function(require,module,exports){
 "use strict";
 
 var utils = require("../utils");
 var Promise = require("../promise");
 var User = require("./user");
-var Account = require("./account");
+var makeAccount = require("./account");
 var Column = require("./column");
 
 /**
@@ -32989,12 +33029,12 @@ TD.extractAccountForUser = function (user, rawData) {
   var rawAccount = rawData.accounts.find(function (account) {
     return account.uid === user.id;
   });
-  return new Account(rawAccount, this.proxy);
+  return makeAccount(rawAccount);
 };
 
 module.exports = new TweetDeck();
 
-},{"../promise":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js","../utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js","./account":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/account.js","./column":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/column.js","./user":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/user.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js":[function(require,module,exports){
+},{"../promise":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js","../utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js","./account":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/account.js","./column":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/column.js","./user":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/user.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/sort-utils.js":[function(require,module,exports){
 "use strict";
 
 module.exports = {
@@ -33011,7 +33051,7 @@ module.exports = {
   }
 };
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/tweetcolumnitem.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/tweetcolumnitem.js":[function(require,module,exports){
 "use strict";
 
 var _get = function get(object, property, receiver) {
@@ -33100,7 +33140,7 @@ var TweetColumnItem = (function () {
 
 module.exports = TweetColumnItem;
 
-},{"./columnitem":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/columnitem.js","./twitteruser":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/twitteruser.js","./utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/utils.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/twitteruser.js":[function(require,module,exports){
+},{"./columnitem":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/columnitem.js","./twitteruser":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/twitteruser.js","./utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/utils.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/twitteruser.js":[function(require,module,exports){
 "use strict";
 
 var tweetdeckUtils = require("./utils");
@@ -33128,7 +33168,7 @@ TwitterUserProto.getDescriptionHTML = function () {
 
 module.exports = TwitterUser;
 
-},{"./utils":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/utils.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/user.js":[function(require,module,exports){
+},{"./utils":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/utils.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/user.js":[function(require,module,exports){
 "use strict";
 
 function User(data) {
@@ -33139,7 +33179,7 @@ function User(data) {
 
 module.exports = User;
 
-},{}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/utils.js":[function(require,module,exports){
+},{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/utils.js":[function(require,module,exports){
 "use strict";
 
 var utils = require("../utils.js");
@@ -33193,7 +33233,7 @@ exports.processEntities = function processEntities(text, entitiesMap) {
   return html;
 };
 
-},{"../utils.js":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeckdb.js":[function(require,module,exports){
+},{"../utils.js":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeckdb.js":[function(require,module,exports){
 "use strict";
 
 var IndexedDouchebag = require("./indexeddouchebag");
@@ -33238,6 +33278,27 @@ TweetdeckDbProto.setUser = function (user) {
   }
 };
 
+TweetdeckDbProto.getAccount = function () {
+  var p;
+
+  if (IndexedDouchebag.supported) {
+    p = this.idb.get("keyval", "account");
+  } else {
+    p = Promise.resolve(localStorage["tweetdeck:account"]);
+  }
+
+  return p;
+};
+
+TweetdeckDbProto.setAccount = function (account) {
+  if (IndexedDouchebag.supported) {
+    return this.idb.put("keyval", "account", account);
+  } else {
+    localStorage["tweetdeck:account"] = JSON.stringify(account);
+    return Promise.resolve();
+  }
+};
+
 TweetdeckDbProto.deleteUser = function () {
   if (IndexedDouchebag.supported) {
     return this.idb["delete"]("keyval", "user");
@@ -33249,7 +33310,7 @@ TweetdeckDbProto.deleteUser = function () {
 
 module.exports = new TweetdeckDb();
 
-},{"./indexeddouchebag":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js","./promise":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js","./tweetdeck/user":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/tweetdeck/user.js"}],"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/utils.js":[function(require,module,exports){
+},{"./indexeddouchebag":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/indexeddouchebag.js","./promise":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js","./tweetdeck/user":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/tweetdeck/user.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/utils.js":[function(require,module,exports){
 "use strict";
 
 var Promise = require("./promise");
@@ -33378,7 +33439,7 @@ exports.templateString = function (string, o) {
   });
 };
 
-},{"./promise":"/Users/phartig/Projects/javascript/tweetdeck-prototype/www/static/js/lib/promise.js"}]},{},["./www/static/js/index.js"])
+},{"./promise":"/home/travis/build/jakearchibald/tweetdeck-prototype/www/static/js/lib/promise.js"}]},{},["./www/static/js/index.js"])
 
 
 //# sourceMappingURL=all.js.map
