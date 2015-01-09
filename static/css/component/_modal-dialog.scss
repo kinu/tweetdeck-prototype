@@ -1,0 +1,34 @@
+/**
+ * Modal Dialog
+ */
+
+.modal-dialog {
+  box-sizing: border-box;
+  overflow: auto;
+  border: 1px solid #cbb7ea;
+  background-color: #f3edfa;
+  padding: 1em 2em;
+  @include transform(translate3d(0, 51px, 0));
+  @include transition(transform 0.5s);
+}
+
+.modal-dialog.closed {
+  @include transform(translate3d(0, -200px, 0));
+}
+
+@media (min-width: 500px) {
+  .modal-dialog {
+    width: 350px;
+    margin: auto;
+  }
+}
+
+.modal-overlay {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.3);
+}

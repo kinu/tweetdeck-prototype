@@ -1,0 +1,34 @@
+/**
+ * Button
+ */
+
+.button {
+  position: relative;
+  border: none;
+  background-color: #9266cc;
+  box-shadow: 1px 1px 0 rgba(17,17,17,0.2);
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  min-height: 2.4em;
+  cursor: pointer;
+  padding: 0 1em;
+}
+
+.unbutton {
+  display: inline-block;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}
+

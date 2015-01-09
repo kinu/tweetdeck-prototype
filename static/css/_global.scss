@@ -1,0 +1,44 @@
+@font-face {
+  font-family: whitney;
+  src: url('fonts/whitneyhtf-book.woff2') format('woff2'),
+       url('fonts/whitneyhtf-book.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: whitney;
+  src: url('fonts/whitneyhtf-semibold.woff2') format('woff2'),
+       url('fonts/whitneyhtf-semibold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font: 14px/1.4 whitney, sans-serif;
+  color: #363E42;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: #1C8CE5;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
+}
