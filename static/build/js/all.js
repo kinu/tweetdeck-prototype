@@ -20,22 +20,22 @@ require("core-js/shim");
 require("regenerator/runtime");
 
 },{"core-js/shim":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/core-js/shim.js","regenerator/runtime":"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/regenerator/runtime.js"}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/core-js/shim.js":[function(require,module,exports){
+(function (global){
 /**
- * Core.js 0.4.1
+ * Core.js 0.4.4
  * https://github.com/zloirock/core-js
  * License: http://rock.mit-license.org
  * © 2015 Denis Pushkarev
  */
-!function(returnThis, framework, undefined){
+!function(global, framework, undefined){
 'use strict';
 
 /******************************************************************************
  * Module : common                                                            *
  ******************************************************************************/
 
-var global          = returnThis()
   // Shortcuts for [[Class]] & property names
-  , OBJECT          = 'Object'
+var OBJECT          = 'Object'
   , FUNCTION        = 'Function'
   , ARRAY           = 'Array'
   , STRING          = 'String'
@@ -203,8 +203,14 @@ var create           = Object.create
   , has              = ctx(call, ObjectProto[HAS_OWN], 2)
   // Dummy, fix for not array-like ES3 string in es5 module
   , ES5Object        = Object;
+function toObject(it){
+  return ES5Object(assertDefined(it));
+}
 function returnIt(it){
   return it;
+}
+function returnThis(){
+  return this;
 }
 function get(object, key){
   if(has(object, key))return object[key];
@@ -228,7 +234,7 @@ var assign = Object.assign || function(target, source){
   return T;
 }
 function keyOf(object, el){
-  var O      = ES5Object(object)
+  var O      = toObject(object)
     , keys   = getKeys(O)
     , length = keys.length
     , index  = 0
@@ -290,7 +296,7 @@ function createArrayMethod(type){
 }
 function createArrayContains(isContains){
   return function(el /*, fromIndex = 0 */){
-    var O      = ES5Object(assertDefined(this))
+    var O      = toObject(this)
       , length = toLength(O.length)
       , index  = toIndex(arguments[1], length);
     if(isContains && el != el){
@@ -409,6 +415,9 @@ function assignHidden(target, src){
   for(var key in src)hidden(target, key, src[key]);
   return target;
 }
+
+var SYMBOL_UNSCOPABLES = getWellKnownSymbol('unscopables')
+  , ArrayUnscopables   = ArrayProto[SYMBOL_UNSCOPABLES] || {};
 
 // Iterators
 var SYMBOL_ITERATOR = getWellKnownSymbol(ITERATOR)
@@ -597,6 +606,8 @@ $define(GLOBAL + FORCED, {global: global});
     keyFor: part.call(keyOf, SymbolRegistry),
     // 19.4.2.13 Symbol.toStringTag
     toStringTag: SYMBOL_TAG = getWellKnownSymbol(TO_STRING_TAG, true),
+    // 19.4.2.14 Symbol.unscopables
+    unscopables: SYMBOL_UNSCOPABLES,
     pure: safeSymbol,
     set: set,
     useSetter: function(){setter = true},
@@ -610,9 +621,8 @@ $define(GLOBAL + FORCED, {global: global});
   // 19.4.2.10 Symbol.species
   // 19.4.2.11 Symbol.split
   // 19.4.2.12 Symbol.toPrimitive
-  // 19.4.2.14 Symbol.unscopables
   forEach.call(array('hasInstance,isConcatSpreadable,match,replace,search,' +
-    'species,split,toPrimitive,unscopables'), function(it){
+    'species,split,toPrimitive'), function(it){
       symbolStatics[it] = getWellKnownSymbol(it);
     }
   );
@@ -629,7 +639,7 @@ $define(GLOBAL + FORCED, {global: global});
  ******************************************************************************/
 
 // ECMAScript 6 shim
-!function(isFinite, tmp){
+!function(RegExpProto, isFinite, tmp, NAME){
   var RangeError = global.RangeError
       // 20.1.2.3 Number.isInteger(number)
     , isInteger = Number.isInteger || function(it){
@@ -750,9 +760,11 @@ $define(GLOBAL + FORCED, {global: global});
     // 20.2.2.18 Math.imul(x, y)
     imul: function(x, y){
       var UInt16 = 0xffff
-        , xl = UInt16 & x
-        , yl = UInt16 & y;
-      return 0 | xl * yl + ((UInt16 & x >>> 16) * yl + xl * (UInt16 & y >>> 16) << 16 >>> 0);
+        , xn = +x
+        , yn = +y
+        , xl = UInt16 & xn
+        , yl = UInt16 & yn;
+      return 0 | xl * yl + ((UInt16 & xn >>> 16) * yl + xl * (UInt16 & yn >>> 16) << 16 >>> 0);
     },
     // 20.2.2.20 Math.log1p(x)
     log1p: function(x){
@@ -783,7 +795,7 @@ $define(GLOBAL + FORCED, {global: global});
   setToStringTag(Math, MATH, true);
   
   function assertNotRegExp(it){
-    if(isObject(it) && it instanceof RegExp)throw TypeError();
+    if(cof(it) == REGEXP)throw TypeError();
   }
   $define(STATIC, STRING, {
     // 21.1.2.2 String.fromCodePoint(...codePoints)
@@ -803,7 +815,7 @@ $define(GLOBAL + FORCED, {global: global});
     },
     // 21.1.2.4 String.raw(callSite, ...substitutions)
     raw: function(callSite){
-      var raw = ES5Object(assertDefined(callSite.raw))
+      var raw = toObject(callSite.raw)
         , len = toLength(raw.length)
         , sln = arguments.length
         , res = []
@@ -937,7 +949,7 @@ $define(GLOBAL + FORCED, {global: global});
   // 22.1.3.29 Array.prototype.values()
   // 22.1.3.30 Array.prototype[@@iterator]()
   defineStdIterators(Array, ARRAY, function(iterated, kind){
-    set(this, ITER, {o: ES5Object(iterated), i: 0, k: kind});
+    set(this, ITER, {o: toObject(iterated), i: 0, k: kind});
   // 22.1.5.2.1 %ArrayIteratorPrototype%.next()
   }, function(){
     var iter  = this[ITER]
@@ -956,6 +968,39 @@ $define(GLOBAL + FORCED, {global: global});
   // 24.3.3 JSON[@@toStringTag]
   setToStringTag(global.JSON, 'JSON', true);
   
+  // Object static methods accept primitives
+  function wrapObjectMethod(key, MODE){
+    var fn  = Object[key]
+      , exp = core[OBJECT][key]
+      , f   = 0
+      , o   = {};
+    if(!exp || isNative(exp)){
+      o[key] =
+        MODE == 1 ? function(it){ return isObject(it) ? fn(it) : it } :
+        MODE == 2 ? function(it){ return isObject(it) ? fn(it) : true } :
+        MODE == 3 ? function(it){ return isObject(it) ? fn(it) : false } :
+        MODE == 4 ? function(it, key){ return fn(toObject(it), key) } :
+                    function(it){ return fn(toObject(it)) }
+      try { fn(DOT) }
+      catch(e){ f = 1}
+      $define(STATIC + FORCED * f, OBJECT, o);
+    }
+  }
+  wrapObjectMethod('freeze', 1);
+  wrapObjectMethod('seal', 1);
+  wrapObjectMethod('preventExtensions', 1);
+  wrapObjectMethod('isFrozen', 2);
+  wrapObjectMethod('isSealed', 2);
+  wrapObjectMethod('isExtensible', 3);
+  wrapObjectMethod('getOwnPropertyDescriptor', 4);
+  wrapObjectMethod('getPrototypeOf');
+  wrapObjectMethod('keys');
+  wrapObjectMethod('getOwnPropertyNames');
+  
+  function WrappedRegExp(pattern, flags){
+    return new RegExp(cof(pattern) == REGEXP && flags !== undefined
+      ? pattern.source : pattern, flags);
+  }
   if(framework){
     // 19.1.3.6 Object.prototype.toString()
     tmp[SYMBOL_TAG] = DOT;
@@ -963,13 +1008,47 @@ $define(GLOBAL + FORCED, {global: global});
       return '[object ' + classof(this) + ']';
     });
     
+    // 19.2.4.2 name
+    NAME in FunctionProto || defineProperty(FunctionProto, NAME, {
+      configurable: true,
+      get: function(){
+        var match = String(this).match(/^\s*function ([^ (]*)/)
+          , name  = match ? match[1] : '';
+        has(this, NAME) || defineProperty(this, NAME, descriptor(5, name));
+        return name;
+      },
+      set: function(value){
+        has(this, NAME) || defineProperty(this, NAME, descriptor(0, value));
+      }
+    });
+    
+    // RegExp allows a regex with flags as the pattern
+    if(DESC && !function(){try{return RegExp(/a/g, 'i') == '/a/i'}catch(e){}}()){
+      forEach.call(getNames(RegExp), function(key){
+        key in WrappedRegExp || defineProperty(WrappedRegExp, key, {
+          configurable: true,
+          get: function(){ return RegExp[key] },
+          set: function(it){ RegExp[key] = it }
+        });
+      });
+      RegExpProto[CONSTRUCTOR] = WrappedRegExp;
+      WrappedRegExp[PROTOTYPE] = RegExpProto;
+      hidden(global, REGEXP, WrappedRegExp);
+    }
+    
     // 21.2.5.3 get RegExp.prototype.flags()
-    if(/./g.flags != 'g')defineProperty(RegExp[PROTOTYPE], 'flags', {
+    if(/./g.flags != 'g')defineProperty(RegExpProto, 'flags', {
       configurable: true,
       get: createReplacer(/^.*\/(\w*)$/, '$1')
     });
+    
+    // 22.1.3.31 Array.prototype[@@unscopables]
+    forEach.call(array('find,findIndex,fill,copyWithin,entries,keys,values'), function(it){
+      ArrayUnscopables[it] = true;
+    });
+    SYMBOL_UNSCOPABLES in ArrayProto || hidden(ArrayProto, SYMBOL_UNSCOPABLES, ArrayUnscopables);
   }
-}(isFinite, {});
+}(RegExp[PROTOTYPE], isFinite, {}, 'name');
 
 /******************************************************************************
  * Module : immediate                                                         *
@@ -1052,7 +1131,7 @@ $define(GLOBAL + BIND, {
 // Based on https://github.com/getify/native-promise-only/
 !function(Promise, test){
   isFunction(Promise) && isFunction(Promise.resolve)
-  && Promise.resolve(test = new Promise(Function())) == test
+  && Promise.resolve(test = new Promise(function(){})) == test
   || function(asap, DEF){
     function isThenable(o){
       var then;
@@ -1451,15 +1530,15 @@ $define(GLOBAL + BIND, {
     }
   }
   
-  function reflectGet(target, propertyKey, receiver){
-    if(receiver === undefined)receiver = target;
-    var desc = getOwnDescriptor(assertObject(target), propertyKey), proto;
+  function reflectGet(target, propertyKey/*, receiver*/){
+    var receiver = arguments.length < 3 ? target : arguments[2]
+      , desc = getOwnDescriptor(assertObject(target), propertyKey), proto;
     if(desc)return desc.get ? desc.get.call(receiver) : desc.value;
     return isObject(proto = getPrototypeOf(target)) ? reflectGet(proto, propertyKey, receiver) : undefined;
   }
-  function reflectSet(target, propertyKey, V, receiver){
-    if(receiver === undefined)receiver = target;
-    var desc = getOwnDescriptor(assertObject(target), propertyKey), proto;
+  function reflectSet(target, propertyKey, V/*, receiver*/){
+    var receiver = arguments.length < 4 ? target : arguments[3]
+      , desc = getOwnDescriptor(assertObject(target), propertyKey), proto;
     if(desc){
       if(desc.writable === false)return false;
       if(desc.set)return desc.set.call(receiver, V), true;
@@ -1532,7 +1611,7 @@ $define(GLOBAL + BIND, {
   
   function createObjectToArray(isEntries){
     return function(object){
-      var O      = ES5Object(object)
+      var O      = toObject(object)
         , keys   = getKeys(object)
         , length = keys.length
         , i      = 0
@@ -1601,7 +1680,9 @@ $define(GLOBAL + BIND, {
                   'reduce,reduceRight,copyWithin,fill,turn');
   $define(STATIC, ARRAY, arrayStatics);
 }({});
-}(Function('return this'), true);
+}(typeof window != 'undefined' && window.Math === Math ? window : global, true);
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{}],"/home/travis/build/jakearchibald/tweetdeck-prototype/node_modules/6to5/node_modules/regenerator/runtime.js":[function(require,module,exports){
 /**
  * Copyright (c) 2014, Facebook, Inc.
